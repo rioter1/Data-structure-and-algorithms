@@ -16,7 +16,7 @@ class Array(object):
             if self.__a[j] == item:
             # If found,
                 return self.__a[j] # then return item
-            return None
+        return None
             # Not found -> None
     def delete(self, item):
         #    Delete first occurrence
@@ -30,7 +30,7 @@ class Array(object):
                     self.nItems -= 1
             # One fewer in array now
                 return True # Return success flag
-            return False
+        return False
 # Made it here, so couldn’t find the item
 def traverse(self, function=print): # Traverse all items
     for j in range(self.nItems):
