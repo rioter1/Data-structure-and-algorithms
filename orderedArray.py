@@ -1,3 +1,7 @@
+def identity(x):
+    return x
+    # The identity function
+
 class OrderedArray(object):
     def __init__(self, initialSize):
         # Constructor
