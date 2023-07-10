@@ -8,5 +8,5 @@ def selectionSort(self):
                 min = inner
                 # update the min index
                 # __a[min] is smallest among __a[outer]...__a[__nItems-1]
-                self.swap(outer, min)
-                # Swap leftmost and min
+            self.swap(outer, min)
+            # Swap leftmost and min
