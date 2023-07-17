@@ -49,4 +49,8 @@ class Queue(object):
             ans += str(self.__que[j])
         ans += "]"
         return ans
-    
+    '''We set __front to 1 initially, as shown in the empty queue, so that when the first element is inserted and __rear is incremented, they both
+are 1. Thats desirable because the first and last items in the queue are one and the same. So
+__rear and __front are 1 for the first item, and __rear is increased for the insertions that
+follow. That means the frontmost items in the queue are at lower indices, and the rearmost are
+at higher indices, in general.'''
